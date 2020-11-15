@@ -1,0 +1,20 @@
+.container {
+	padding: 30px;
+	background-color: #f4f7f8;
+	width: 300px;
+	border-radius: 8px;
+}
+
+.covidData {
+	margin: auto;
+	text-align: center;
+}
+
+.dataName {
+	font-size: 85%;
+	font-weight: bolder;
+}
+
+.data {
+	font-size: 200%;
+}

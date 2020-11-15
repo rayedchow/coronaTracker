@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2Foriginals%2Fbc%2F9c%2Fd7%2Fbc9cd76b7480db1d24a7c0d0c1f4e9e7.jpg&f=1&nofb=1");
+}
+
+.logo {
+	width: 200px;
+	height: 200px;
+}
+
+#header {
+	padding: 30px;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+
+#logoName {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	font-size: 45px;
+	text-align: center;
+	color: #d0d6d8;
+}
+
+#track {
+	color: #1c6687;
+}
+
+footer {
+	text-align: center;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	position: fixed;
+	bottom: 0pt;
+	font-size: 14px;
+	background-color: rgb(108, 214, 214);
+	border-top-right-radius: 6px;
+	padding: 8px;
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+}

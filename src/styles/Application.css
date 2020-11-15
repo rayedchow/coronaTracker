@@ -24,7 +24,7 @@ body {
 	color: #d0d6d8;
 }
 
-#track {
+#tracker {
 	color: #1c6687;
 }
 
@@ -40,4 +40,8 @@ footer {
 	padding: 8px;
 	font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
+}
+
+#coronaTracker {
+	background-color: #e88080;
 }

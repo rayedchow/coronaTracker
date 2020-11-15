@@ -21,11 +21,11 @@ body {
 	display: inline-block;
 	font-size: 45px;
 	text-align: center;
-	color: #d0d6d8;
+	color: #80e880;
 }
 
 #tracker {
-	color: #1c6687;
+	color: #6dbf6b;
 }
 
 footer {
@@ -43,5 +43,7 @@ footer {
 }
 
 #coronaTracker {
-	background-color: #e88080;
+	background-color: rgb(232, 128, 128, 0.95);
+	padding: 5px;
+	border-radius: 8px;
 }

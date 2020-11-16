@@ -12,11 +12,12 @@ export let [CurrentCountry, setCurrentCountry]: any = "";
 const Application: React.FC = (): any => {
 
 	[CurrentCountry, setCurrentCountry] = useState("");
-	console.log(CurrentCountry);
 
 	const onFooterClick = () => {
 		window.open('https://github.com/voomp');
 	}
+
+	console.log(window.innerWidth);
 	
 	return (
 		<>

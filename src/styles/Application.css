@@ -9,6 +9,12 @@ body {
 	height: 200px;
 }
 
+@media screen and (max-width: 650px) {
+	.logo {
+		display: none;
+	}
+}
+
 #header {
 	padding: 30px;
 	display:flex;

@@ -9,6 +9,11 @@ body {
 	height: 200px;
 }
 
+.countryLogo {
+	width: 260px;
+	height: 200px;
+}
+
 #header {
 	padding: 30px;
 	display:flex;
@@ -65,20 +70,22 @@ footer {
 	margin-left: 100px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
 	.logo {
 		display: none;
 	}
 
+	#coronaTracker {
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 750px) {
 	#info {
 		display: block;
 	}
 
 	.state {
-		margin-left: auto;
-	}
-
-	#coronaTracker {
 		margin-left: 0px;
 	}
 }

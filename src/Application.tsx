@@ -26,7 +26,7 @@ const Application: React.FC = (): any => {
 		<>
 			<div id="header">
 				<img src={logo} alt="Logo" className="logo" />
-				<span id="logoName"><pre> <span id="coronaTracker">corona<span id="tracker">Tracker</span></span></pre></span>
+				<span id="logoName"><span id="coronaTracker">corona<span id="tracker">Tracker</span></span></span>
 			</div>
 			<div id="info">
 				<div className="dataContainer">

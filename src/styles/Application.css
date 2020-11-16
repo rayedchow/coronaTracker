@@ -46,6 +46,7 @@ footer {
 	background-color: rgb(232, 128, 128, 0.95);
 	padding: 5px;
 	border-radius: 8px;
+	margin-left: 20px;
 }
 
 #info {
@@ -75,5 +76,9 @@ footer {
 
 	.state {
 		margin-left: auto;
+	}
+
+	#coronaTracker {
+		margin-left: 0px;
 	}
 }

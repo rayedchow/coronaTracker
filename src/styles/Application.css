@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-	background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2Foriginals%2Fbc%2F9c%2Fd7%2Fbc9cd76b7480db1d24a7c0d0c1f4e9e7.jpg&f=1&nofb=1");
+	background: url("https://cdn.discordapp.com/attachments/425094270135828491/777891384988270602/bg.jpg");
 }
 
 .logo {
 	width: 200px;
 	height: 200px;
-}
-
-@media screen and (max-width: 650px) {
-	.logo {
-		display: none;
-	}
 }
 
 #header {
@@ -52,4 +46,34 @@ footer {
 	background-color: rgb(232, 128, 128, 0.95);
 	padding: 5px;
 	border-radius: 8px;
+}
+
+#info {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.dataContainer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.state {
+	margin-left: 100px;
+}
+
+@media screen and (max-width: 650px) {
+	.logo {
+		display: none;
+	}
+
+	#info {
+		display: block;
+	}
+
+	.state {
+		margin-left: auto;
+	}
 }

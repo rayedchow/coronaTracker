@@ -57,7 +57,7 @@ const StateData = () => {
 		<>
 			{country === "USA" && state !== "" &&
 
-				<div className="container covidData">
+				<div className="container covidData state">
 					<br />
 
 					{listedData.map(data => (

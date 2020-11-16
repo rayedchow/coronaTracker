@@ -1,23 +1,26 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import CountrySearch from './country/CountrySearch';
-import Store from './data/Store';
 import CountryData from './country/CountryData';
 import './styles/Application.css';
 import logo from './img/logo.png';
 import StateData from './state/StateData';
 import StateSearch from './state/StateSearch';
-
-export let [CurrentCountry, setCurrentCountry]: any = "";
+import { CurrentCountry } from './data/Store';
 
 const Application: React.FC = (): any => {
-
-	[CurrentCountry, setCurrentCountry] = useState("");
+	
+	const [country] = useContext(CurrentCountry);
 
 	const onFooterClick = () => {
 		window.open('https://github.com/voomp');
 	}
 
 	console.log(window.innerWidth);
+
+	let stateClass = "";
+	if(country === "USA") {
+		stateClass = "state";
+	}
 	
 	return (
 		<>
@@ -25,12 +28,16 @@ const Application: React.FC = (): any => {
 				<img src={logo} alt="Logo" className="logo" />
 				<span id="logoName"><pre> <span id="coronaTracker">corona<span id="tracker">Tracker</span></span></pre></span>
 			</div>
-			<Store>
-				<CountrySearch />
-				<CountryData />
-				<StateSearch />
-				<StateData />
-			</Store>
+			<div id="info">
+				<div className="dataContainer">
+					<CountrySearch />
+					<CountryData />
+				</div>
+				<div className={`dataContainer ${stateClass}`}>
+					<StateSearch />
+					<StateData />
+				</div>
+			</div>
 			<br />
 			<br />
 			<footer onClick={onFooterClick}>Programmed by Vamp</footer>

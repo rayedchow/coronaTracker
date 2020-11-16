@@ -35,7 +35,7 @@ const StateSearchElement: React.FC = () => {
 	return (
 		<>
 			{country === "USA" &&
-				<div className="search">
+				<div className="search state">
 					<Form.Field
 						control={Select}
 						options={options}

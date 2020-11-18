@@ -88,4 +88,8 @@ footer {
 	.state {
 		margin-left: 0px;
 	}
+
+	.stateData {
+		margin-left: 100px;
+	}
 }

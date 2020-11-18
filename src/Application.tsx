@@ -46,7 +46,9 @@ const Application: React.FC = (): any => {
 				</div>
 				<div className={`dataContainer ${stateClass}`}>
 					<StateSearch />
-					<StateData />
+					<div className="stateData">
+						<StateData />
+					</div>
 				</div>
 			</div>
 			<br />
